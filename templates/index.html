@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Churn Prediction</title>
+</head>
+<body>
+    <h1>Churn Prediction</h1>
+    <form action="/predict" method="post">
+        Age: <input type="text" name="age"><br>
+        Are you subscribed with other airlines? (No - 0 or Yes - 1): <input type="text" name="cobrand"><br>
+        No. of years active:  <input type="text" name="years"><br>
+        Is there a price increment compared to previous purchase (No - 0 or Yes - 1): <input type="text" name="airaccural"><br>
+        Hotel Redemption (Not Provided - 0 or Provided - 1): <input type="text" name="hotel"><br>
+        Base Membership (No - 0 or Yes - 1): <input type="text" name="base"><br>
+        Gold Membership (No - 0 or Yes - 1): <input type="text" name="gold"><br>
+        Platinum Membership (No - 0 or Yes - 1): <input type="text" name="platinum"><br>
+        Silver Membership (No - 0 or Yes - 1): <input type="text" name="silver"><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
